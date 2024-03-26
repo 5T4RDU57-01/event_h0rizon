@@ -26,8 +26,8 @@ python main.py -d my_folder my_key.key
 
 ## Files
 
-# main.py: Contains the main program logic and command-line argument parsing.
-# helpers.py: Contains helper functions for encryption, decryption, key generation, and folder encryption/decryption.
+ main.py: Contains the main program logic and command-line argument parsing.
+ helpers.py: Contains helper functions for encryption, decryption, key generation, and folder encryption/decryption.
 
 ## How It Works
  The main.py file handles command-line arguments using the argparse library.
@@ -41,5 +41,5 @@ python main.py -d my_folder my_key.key
 ## Running the Program
  Install Python 3.x and the cryptography library.
  Open a terminal or command prompt.
-# Navigate to the directory containing main.py and helpers.py.
-# Use the command-line arguments as described above to encrypt, decrypt, or generate keys.
+ Navigate to the directory containing main.py and helpers.py.
+ Use the command-line arguments as described above to encrypt, decrypt, or generate keys.
