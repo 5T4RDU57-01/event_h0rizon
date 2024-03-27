@@ -63,7 +63,7 @@ def generate_key(name: str) -> int:
 
 
 # Encrypts or decrypts all the files in a directory
-def encrypt_decrypt_folder(method : str, folder : str, key : str) -> None:
+def encrypt_decrypt_folder(method : function, folder : str, key : str) -> None:
         
         # Initialize the function to be used (encrypt or decrypt)
         procedure = method
