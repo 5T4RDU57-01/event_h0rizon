@@ -69,8 +69,6 @@ def do_everything() -> int:
 
     ##  KEY GENERATION  ##
     
-    
-
     return 0 
         
 # Validates the file or folder and the symmetric key given by the user
@@ -90,7 +88,7 @@ def get_args() -> Namespace:
     parser = ArgumentParser()
 
 
-    group = parser.add_mutually_exclusive_group()
+    group = parser.add_mutually_exclusive_group(required=True)
     ##  <ENCRYPTION>  ##
     group.add_argument("-e","--encrypt", 
                             help="Encrypts a file or folder",
