@@ -1,5 +1,4 @@
 from argparse import ArgumentParser, Namespace
-from sys import argv
 import os
 
 from helpers import encrypt, decrypt, generate_key, encrypt_decrypt_folder
